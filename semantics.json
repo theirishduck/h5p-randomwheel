@@ -1,0 +1,65 @@
+[
+  {
+    "name": "intro",
+    "type": "text",
+    "widget": "html",
+    "label": "Introduction text",
+    "importance": "high",
+    "default": "Spin the wheel to choose a random item.",
+    "description": "Will be displayed above the summary task.",
+    "enterMode": "p",
+    "tags": [
+      "strong",
+      "em",
+      "u",
+      "a",
+      "ul",
+      "ol",
+      "h2",
+      "h3",
+      "hr"
+    ],
+    "common": false
+  },
+  {
+    "name": "instructions",
+    "type": "text",
+    "label": "Instructions text",
+    "importance": "high",
+    "default": "Speak a sentence using the word you spun.",
+    "description": "Will be displayed after spinning the wheel.",
+    "common": false
+  },
+  {
+    "name": "words",
+    "type": "list",
+    "label": "Random wheel items",
+    "min": 1,
+    "max": 31,
+    "field": {
+      "name": "word",
+      "type": "text",
+      "label": "Item",
+      "placeholder": "..."
+    }
+  },
+  
+  {
+    "name": "spinLabel",
+    "type": "text",
+    "label": "Text displayed on the spin button.",
+    "importance": "low",
+    "default": "Spin it",
+    "description": "Will be displayed as the label of the spin button.",
+    "common": true
+  },
+  {
+    "name": "eliminateLabel",
+    "type": "text",
+    "label": "Text displayed on the eliminate button.",
+    "importance": "low",
+    "default": "Eliminate",
+    "description": "Will be displayed as the label of the eliminate button",
+    "common": true
+  }
+]

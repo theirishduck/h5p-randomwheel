@@ -1,0 +1,41 @@
+{
+  "title": "Random Wheel",
+  "description": "Let your users spin a wheel to choose a random item.",
+  "majorVersion": 1,
+  "minorVersion": 1,
+  "patchVersion": 0,
+  "runnable": 1,
+  "embedTypes": [
+    "iframe"
+  ],
+  "machineName": "H5P.RandomWheel",
+  "license": "MIT",
+  "author": "fabforge, Fabian Dennler",
+  "coreApi": {
+    "majorVersion": 1,
+    "minorVersion": 1
+  },
+  "preloadedCss": [
+    {
+      "path": "css/RandomWheel.css"
+    }   
+  ],
+  "preloadedJs": [
+    {
+      "path": "js/RandomWheel.js"
+    },
+    {
+      "path": "js/TweenMax.min.js"
+    },
+    {
+      "path": "js/Winwheel.min.js"
+    }
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "H5P.JoubelUI",
+      "majorVersion": 1,
+      "minorVersion": 3
+    }
+  ]
+}

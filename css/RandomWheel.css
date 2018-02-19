@@ -1,0 +1,31 @@
+.h5p-randomwheel {
+  text-align: center;
+}
+.randomwheel-content {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.2em;
+}
+
+#word {
+  font-size: 1.125em;
+  background-color: #ddd;
+}
+
+.h5p-heading {
+  font-size: 1.125em;
+  margin-bottom: 0.5em;
+  background-color: #ddd;
+}
+
+.h5p-heading p {
+  margin: 0;
+  padding: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+#instructions {
+  margin-bottom: 0.2em;
+  padding: 0.2em;
+}
